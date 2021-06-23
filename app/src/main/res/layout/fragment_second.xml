@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/discipline_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Disciplina" />
+    <EditText
+        android:id="@+id/title_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Atividade" />
+    <EditText
+        android:id="@+id/points_value"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pontuação" />
+    <EditText
+        android:id="@+id/description_value"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição" />
+
+    <EditText
+        android:id="@+id/deadline_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data de entrega" />
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="CRIAR"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"/>
+</LinearLayout>
